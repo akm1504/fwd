@@ -23,9 +23,9 @@ if not os.path.isfile('chats.json'):
 if not os.path.isfile('allowed.json'):
     save_allowed(set())
 
-chats = {}
-allowed = []
-TOKEN = ""
+chats = {"@indianfilms_admin"}
+allowed = ["@indianfilms_admin"]
+TOKEN = "776013397:AAFCD9qHkhWzp9RjPMjIgeMAZ4qSty8sWr0"
 PASSWORD = "changeme"
 
 with open('chats.json', 'r') as f:
